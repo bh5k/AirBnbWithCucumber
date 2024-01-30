@@ -6,6 +6,12 @@ public class Rental {
     private SeasonType seasonType;
     private int days;
 
+    private User user;
+
+    public User getUser() {
+        return user;
+    }
+
     public Room getRoom() {
         return room;
     }
@@ -28,5 +34,9 @@ public class Rental {
 
     public void setDays(int days) {
         this.days = days;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 }

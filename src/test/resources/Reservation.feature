@@ -6,8 +6,12 @@ Feature:
       | Room Name   | Rate   |
       | Cliffhanger | 100    |
       | Slickrock   | 125    |
+    Given I am a registered user
+      | Name         |
+      | Bryan Hansen |
+      | Sara Hansen  |
 
-    When I book a <Room> in <Season> for <Days>
+    When <Name> books a <Room> in <Season> for <Days>
     Then my bill total is <Amount>
 
     Examples:
