@@ -1,11 +1,13 @@
+package stepdefinitions;
+
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import model.Rental;
-import model.Room;
-import model.SeasonType;
-import model.User;
+import com.airbnb.model.Rental;
+import com.airbnb.model.Room;
+import com.airbnb.model.SeasonType;
+import com.airbnb.model.User;
 import org.junit.jupiter.api.Assertions;
 
 import java.util.List;
