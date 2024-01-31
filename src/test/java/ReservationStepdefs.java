@@ -38,6 +38,7 @@ public class ReservationStepdefs {
     }
 
     private User findUser(String username) {
+        System.out.println(registeredUsers.get(0).get("Name"));
         for (Map<String, String> user : registeredUsers) {
             if (user.get("Name").equals(username)) {
                 User registeredUser = new User();
