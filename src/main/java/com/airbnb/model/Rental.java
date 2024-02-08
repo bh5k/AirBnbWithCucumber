@@ -1,12 +1,22 @@
-package model;
+package com.airbnb.model;
 
 public class Rental {
+
+    private Long id;
 
     private Room room;
     private SeasonType seasonType;
     private int days;
 
     private User user;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public User getUser() {
         return user;

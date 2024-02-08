@@ -1,4 +1,4 @@
-package model;
+package com.airbnb.model;
 
 public enum SeasonType {
 
